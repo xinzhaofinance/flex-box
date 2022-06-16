@@ -1,0 +1,61 @@
+html,body{
+    margin: 0px;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+
+.card   {
+
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    border-color: rgba(236, 221, 10, 0.3);
+    background-color: white;
+    min-width: 30%;
+    min-height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    
+    
+}
+
+H1{
+    align-content: center;
+    font-size:35px;
+    
+}
+
+input{
+    font-family: 'Franklin Gothic Medium';
+    color:grey;
+    font-size:20px;
+    border-style: initial;
+    
+    
+    
+   
+}
+button{
+    margin:10px 2px;
+    padding:8px 50px;
+    border:5px 5px;
+    background-color:rgba(9, 153, 243, 0.874);
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium';
+    color:white;
+    border-radius:10px;
+    outline-style: none;
+    border-color: white;
+
+}
